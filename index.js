@@ -20,6 +20,7 @@ const fs = require("fs");
         await knex.migrate.latest();
 
         const bookshelf = require('bookshelf')(knex)
+        bookshelf.plugin("registry");
 
         // ============ MODELS DEFINITION
 
