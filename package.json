@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "node index.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "bookshelf": "^1.0.1",
+        "knex": "^0.20.4",
+        "sqlite3": "^4.1.1"
+    }
+}
